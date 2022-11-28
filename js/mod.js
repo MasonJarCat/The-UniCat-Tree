@@ -3,7 +3,7 @@ let modInfo = {
 	id: "UniCatmod",
 	author: "Mason",
 	pointsName: "sparkles",
-	modFiles: ["tree.js", "js\layers\glitter.js"],
+	modFiles: ["tree.js", "layers\\glitter.js"],
 
 	discordName: "",
 	discordLink: "",
