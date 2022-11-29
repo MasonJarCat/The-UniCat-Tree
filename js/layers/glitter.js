@@ -26,7 +26,30 @@ addLayer("glitter", {
     layerShown(){return true},
     upgrades: {
         11: {
-
+            title: "more sparkles",
+            description: "gain 50% more sparkles",
+            cost: new Decimal(1),
         },
+        12: {
+            title: "more more sparkles",
+            description: "gain 150% more sparkles",
+            cost: new Decimal(10),
+        },
+        13: {
+            title: "more more more sparkles",
+            description: "gain 250% more sparkles",
+            cost: new Decimal(100),
+        },
+        21: {
+            title: "that's enough sparkles",
+            description: "glitter gain is increased by 50%",
+            cost: new Decimal(1000),
+        },
+        22: {
+            title: "you want more sparkles? Fine.",
+            description: "sparkle gain is increased by sparkles",
+            cost: new Decimal(10000),
+        }
     }, 
 })
+

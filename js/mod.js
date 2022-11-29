@@ -43,6 +43,7 @@ function getPointGen() {
 		return new Decimal(0)
 
 	let gain = new Decimal(1)
+	if(hasUpgrade("glitter", 11)) gain = gain.times(1.5)
 	return gain
 }
 
